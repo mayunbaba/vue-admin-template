@@ -1,12 +1,12 @@
 # admin-template
 
-### 代码格式规范
+## 代码格式规范
 
 - eslint  
 - prettier  
 - vscode 配置自动格式化  
 
-### git提交规范
+## git提交规范
 
 - 约定式提交规范
 - commitizen: git提交规范化工具 全局安装(https://www.jianshu.com/p/36d970a2b4da)  
@@ -23,9 +23,17 @@ yarn prepare
 npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
 npx husky add .husky/pre-commit 'npx lint-staged'
 ```
-
-
 npm 需要在 7.X 以上版本
+
+## tag的使用
+```
+git pull --tag 拉取远端tag
+git tag -n  查看tag
+git tag -a "1.0.0" -m "提交信息"
+git tag -d tag-name  删除本地tag
+git push origin :refs/tags/tag-name 删除远端tag
+git push --tag
+```
 
 ## Project setup
 
