@@ -2,20 +2,18 @@
 
 ### 代码格式规范
 
-eslint  
-prettier  
-vscode 配置自动格式化  
+- eslint  
+- prettier  
+- vscode 配置自动格式化  
 
 ### git提交规范
 
-约定式提交规范
-commitizen: git提交规范化工具 全局安装(https://www.jianshu.com/p/36d970a2b4da)  
-commitlint: 用于检查提交信息 (https://blog.csdn.net/qq_38290251/article/details/111646491)
-pre-commit： git hooks 钩子
-lint-staged 可以让你当前的代码检查**只检查本次修改更新的代码，并在出现错误的时候，自动修复并且推送**
-
-husky: 是 `git hooks` 工具
-
+- 约定式提交规范
+- commitizen: git提交规范化工具 全局安装(https://www.jianshu.com/p/36d970a2b4da)  
+- commitlint: 用于检查提交信息 (https://blog.csdn.net/qq_38290251/article/details/111646491)
+- pre-commit： git hooks 钩子
+- lint-staged 可以让你当前的代码检查**只检查本次修改更新的代码，并在出现错误的时候，自动修复并且推送** 
+- husky: 是 `git hooks` 工具  
 ```
 yarn add husky -D
 npx husky install // 生成husky文件
